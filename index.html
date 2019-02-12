@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>form</title>
+        <link rel="stylesheet" href="css/fontawesome.css"/>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Login</h1>
+            <form action="#" method="post" class="frm">
+                <div class="form-box">
+                    <!-- if has error add "error-block" class -->
+                    <label class="label-input" for="lab">Username</label>
+                    <div class="form-block">
+                        <input class="frm-input" type="text" name="username" placeholder="Type your username" id="lab" autocomplete="off" autofocus required>
+                        <!-- if need to disable, add "disabled" atribute-->
+                        <span class="focus-input"></span>
+                        <i class="fas fa-user login-icon"></i>
+                    </div>
+                    <p class="error-text">Invalid username!</p>
+                </div>
+                <div class="form-box"> <!-- if has error add "error-block" class -->
+                    <label class="label-input" for="inp">Password</label>
+                    <div class="form-block">
+                        <input class="frm-input" type="password" name="password" placeholder="Type your password" id="inp" required>
+                        <!-- if need to disable, add "disabled" atribute-->
+                        <span class="focus-input"></span>
+                        <i class="fas fa-lock login-icon"></i>
+                    </div>
+                    <p class="error-text">Invalid password!</p>
+                </div>
+                <div class="forgot">
+                    <a class="forgot-text" href="#">Forgot password?</a>
+                </div>
+                <div class="form-btn">
+                    <button class="btn" type="submit">LOGIN</button>
+                    <!-- if page loading, add " loading" class -->
+                    <!-- if need to disable, add "disabled" atribute-->
+                </div>
+                <div class="text">
+                    <p class="text-description"> Or Sign Up Using</p>
+                </div>
+                <div class="social">
+                    <a href="" class="social__item social__item--fb" target="_blank" rel="nofollow">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="" class="social__item social__item--tw" target="_blank" rel="nofollow">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="" class="social__item social__item--gg" target="_blank" rel="nofollow">
+                        <i class="fab fa-google-plus-square"></i>
+                    </a>
+                </div>
+                <div class="sign-text">
+                    <p class="sign-text-description">Or Sign Up Using</p>
+                </div>
+                <div class="sign-block">
+                    <a class="sign-block-link" href="">SIGN UP</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
